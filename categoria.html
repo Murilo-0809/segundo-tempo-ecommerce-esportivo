@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produtos | Segundo Tempo</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header id="cabecalho"></header>
+
+  <main class="container">
+    <p class="migalhas"><a href="index.html">Início</a> / <span id="migalha"></span></p>
+    <div class="titulo-pagina">
+      <h1 id="titulo">Produtos</h1>
+      <p id="subtitulo"></p>
+    </div>
+
+    <div class="com-filtros">
+      <aside class="filtros" id="filtros">
+        <h3>Filtros</h3>
+        <div class="filtro-grupo">
+          <h4>Condição</h4>
+          <label><input type="radio" name="condicao" value="todos" checked> Todos</label>
+          <label><input type="radio" name="condicao" value="novo"> Novos</label>
+          <label><input type="radio" name="condicao" value="seminovo"> Seminovos</label>
+        </div>
+        <div class="filtro-grupo">
+          <h4>Grau do seminovo</h4>
+          <label><input type="checkbox" name="grau" value="A"> Grau A · como novo</label>
+          <label><input type="checkbox" name="grau" value="B"> Grau B · muito bom</label>
+          <label><input type="checkbox" name="grau" value="C"> Grau C · bom</label>
+        </div>
+        <div class="filtro-grupo">
+          <h4>Preço</h4>
+          <input type="number" id="preco-min" placeholder="Mínimo (R$)" min="0">
+          <input type="number" id="preco-max" placeholder="Máximo (R$)" min="0">
+        </div>
+        <div class="filtro-grupo">
+          <label><input type="checkbox" id="so-frete"> Frete grátis</label>
+        </div>
+        <button class="botao vazado cheio" id="limpar">Limpar filtros</button>
+      </aside>
+
+      <section>
+        <div class="lista-topo">
+          <span id="resultados"></span>
+          <button class="botao vazado botao-filtro" id="abrir-filtros">Filtros</button>
+          <select id="ordem">
+            <option value="relevante">Ordenar: Mais relevantes</option>
+            <option value="menor">Menor preço</option>
+            <option value="maior">Maior preço</option>
+            <option value="desconto">Maior desconto</option>
+          </select>
+        </div>
+        <div class="grade tres" id="produtos"></div>
+      </section>
+    </div>
+  </main>
+
+  <footer id="rodape" class="rodape"></footer>
+
+  <script src="js/dados.js"></script>
+  <script src="js/carrinho.js"></script>
+  <script src="js/principal.js"></script>
+  <script src="js/categoria.js"></script>
+</body>
+</html>
