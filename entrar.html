@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entrar | Segundo Tempo</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header id="cabecalho"></header>
+
+  <main class="container">
+    <div class="auth">
+      <div class="auth-lado">
+        <p class="logo" style="color:var(--lima);font-size:1rem">Bem-vindo de volta</p>
+        <h1>Entre e volte <span>pro jogo.</span></h1>
+        <img src="img/tenis-vento-pro-3.jpg" alt="Tênis Vento Pro 3">
+        <ul>
+          <li>Acompanhe suas entregas em tempo real</li>
+          <li>Receba alertas quando um favorito baixar de preço</li>
+          <li>Venda seus equipamentos com inspeção gratuita</li>
+        </ul>
+      </div>
+      <form class="auth-form" id="form-entrar">
+        <h2>Entrar na sua conta</h2>
+        <p>Use o e-mail cadastrado no Segundo Tempo.</p>
+        <div class="campo"><label for="email">E-mail</label><input type="text" id="email" placeholder="voce@email.com"><small></small></div>
+        <div class="campo"><label for="senha">Senha</label><input type="password" id="senha"><small></small></div>
+        <button type="submit" class="botao">Entrar</button>
+        <button type="button" class="botao alternativa" disabled>Continuar com Google</button>
+        <p class="link">Ainda não tem conta? <a href="criar-conta.html">Criar conta grátis</a></p>
+      </form>
+    </div>
+  </main>
+
+  <footer id="rodape" class="rodape"></footer>
+
+  <script src="js/dados.js"></script>
+  <script src="js/carrinho.js"></script>
+  <script src="js/principal.js"></script>
+  <script src="js/entrar.js"></script>
+</body>
+</html>
