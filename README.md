@@ -3,6 +3,11 @@
 Loja virtual de equipamentos esportivos novos e seminovos verificados, desenvolvida com HTML, CSS e JavaScript puro (sem frameworks).
 Projeto das disciplinas de Design Gráfico (protótipo no Figma) e Criação de Sites (este código).
 
+## Links
+
+- Repositório: https://github.com/Murilo-0809/segundo-tempo-ecommerce-esportivo
+- Site (GitHub Pages): https://murilo-0809.github.io/segundo-tempo-ecommerce-esportivo/
+
 ## Funcionalidades
 
 - **Home:** banner, categorias, ofertas do dia com cronômetro, seminovos em destaque e explicação do programa seminovo verificado
